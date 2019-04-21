@@ -21,19 +21,54 @@ class Cv extends Component {
                         <div className="cv-left-col">
                             <h2 style={{paddingTop: '2em'}}> Martijn Bankert</h2>
                             <h4 style={{color: 'grey'}}>WebDeveloper</h4>
-                            <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porttitor,
-                                metus eu tristique luctus, enim nisi blandit tortor, sit amet sodales justo est nec mi.
-                                In placerat iaculis mi, a commodo mauris condimentum vulputate. Morbi venenatis nisl eget auctor ornare.
-                                Nullam pretium molestie justo, ac egestas erat cursus et. Quisque sed elementum risus, in vestibulum turpis. Nulla facilisi. 
-                                Nulla sed lobortis risus, et hendrerit enim. Quisque cursus felis porta, dapibus nisi ac, fermentum metus.
+                            <hr/>
+                            <p>Hi, 
+                                Ik ben Martijn, een student Creative Media and Game 
+                                Technologies en junior Webdeveloper. Mijn droom is 
+                                front-end developer worden en straks van mijn hobby
+                                mijn werk te maken. Ik wil me nu vooral gaan 
+                                richten op front-end technieken zoals React en op webdesign,
+                                zodat ik mijn droom waar kan gaan maken. Ik wil me ook verder
+                                verdiepen in Technisch SEO, omdat de combinatie van development en SEO 
+                                altijd handig is om te hebben. 
                             </p>
-                            <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
+                            <hr/>
                             <h5>Adres</h5>
                             <p>Wijnhaven 107, Rotterdam</p>
                             <h5>Email</h5>
-                            <p>example@email.com</p>
-                            <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
+                            <p>mbankert146@gmail.com</p>
+                            <hr/>
+
+                            <div className="cv-social-links">
+
+                            {/* Github */}
+                            <div className="social-links">
+                                <a href="https://github.com/Mguy11" rel="noopener noreferrer" target="_blank">
+                                    <i className="fa fa-github" aria-hidden="true" />
+                                </a>
+                            </div> 
+
+                            {/* LinkedIn */}
+                            <div className="social-links">
+                                <a href="https://www.linkedin.com/in/martijn-bankert-389491161/" rel="noopener noreferrer" target="_blank">
+                                    <i className="fa fa-linkedin" aria-hidden="true" />
+                                </a>
+                            </div> 
+
+                            {/* CodePen */}
+                            <div className="social-links">
+                                <a href="https://codepen.io/Mguy11/" rel="noopener noreferrer" target="_blank">
+                                    <i className="fa fa-codepen" aria-hidden="true" />
+                                </a>
+                            </div>
+
+                            {/* Youtube */}
+                            <div className="social-links">
+                                <a href="https://www.youtube.com/channel/UCaozaAhapU8JmymN7BBU-lA" rel="noopener noreferrer" target="_blank">
+                                    <i className="fa fa-youtube" aria-hidden="true" />
+                                </a>
+                            </div>
+                    </div>
                         </div>
                     </Cell>
                     <Cell className="cv-right-col" col={8}>
@@ -104,28 +139,7 @@ class Cv extends Component {
                         <hr style={{borderTop: '3px solid #e22947'}}/>
 
                         <h2>Skills</h2>
-
-                        <Skills
-                            skill="C#"
-                            progress={40}
-                        />
-
-                        <Skills
-                            skill="PHP"
-                            progress={40}
-                        />
-                        <Skills
-                            skill="HTML/CSS"
-                            progress={80}
-                        />
-                        <Skills
-                            skill="Typescript"
-                            progress={50}
-                        />
-                        <Skills
-                            skill="JavaScript"
-                            progress={40}
-                        />
+                        <Skills/>
 
                     </Cell>
                 </Grid>

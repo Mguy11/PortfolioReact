@@ -115,6 +115,13 @@
   color: white;
   padding: 2em;
 }
+.cv-right-col li {
+  color: white;
+}
+
+.cv-right-col h4 {
+  margin-top: '0px';
+}
 
 .cv-left-col {
   text-align: center;
@@ -123,6 +130,8 @@
 
 .cv-left-col hr {
   margin: auto;
+  width: 100%;
+  border-top: 3px solid #833fb2;
 }
 
 .cv-left-col p {
@@ -131,6 +140,21 @@
   justify-content: center;
   padding-top: '5em';
   padding-bottom: '5em'; 
+}
+
+.cv-social-links {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+
+}
+
+.cv-social-links i {
+  color: black;
+  font-size: 2em;
+  padding: 8px;
+
 }
 
 /*Contact Page CSS*/
@@ -147,4 +171,7 @@
   height: 100%;
   padding-top: 5em;
 }
+
+/*About me Page CSS*/
+
 

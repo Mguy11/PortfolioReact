@@ -29,25 +29,19 @@ class AboutMe extends Component {
                                 <ListItem>
                                     <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton'}}>
                                     <i className="fa fa-phone-square"/>
-                                    (+31) 612345678
+                                    (+31) 610708503
                                     </ListItemContent>
                                 </ListItem>
                                 <ListItem>
                                     <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton'}}>
                                     <i className="fa fa-envelope"/>
-                                    example@email.com
-                                    </ListItemContent>
-                                </ListItem>
-                                <ListItem>
-                                    <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton'}}>
-                                    <i className="fa fa-fax"/>
-                                    (+31) 612345678
+                                    mbankert146@gmail.com
                                     </ListItemContent>
                                 </ListItem>
                                 <ListItem>
                                     <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton'}}>
                                     <i className="fa fa fa-skype"/>
-                                    Skype-ID
+                                    m.bankert_1
                                     </ListItemContent>
                                 </ListItem>
                             </List>

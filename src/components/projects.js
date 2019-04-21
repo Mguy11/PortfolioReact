@@ -18,10 +18,10 @@ class Projects extends Component {
 
                 {/* Project 1 */}
                     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                        <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2017/04/1493235373large_react_apps_A-01.png) center / cover'}}>React Project #1</CardTitle>
+                        <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2017/04/1493235373large_react_apps_A-01.png) center / cover'}}>Portfolio</CardTitle>
                         <CardText>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Mauris sagittis pellentesque lacus eleifend lacinia...
+                            Deze Portfolio website heb ik gemaakt met React. Dit is tevens
+                            mijn eerste project wat ik maak met React.
                         </CardText>
                         <CardActions border>
                             <Button ripple>Github</Button>
