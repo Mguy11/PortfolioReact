@@ -1,10 +1,10 @@
-.header-color{
+.header-color {
   background: #1488CC;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #2B32B2, #1488CC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.landing-grid{
+.landing-grid {
   background: #1488CC;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #2B32B2, #1488CC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -17,8 +17,8 @@
   height: 100%;
 
 }
-
-.avatar-img{
+/*Landing Page CSS */
+.avatar-img {
   height: 150px;
   padding-top: 5em;
 }
@@ -66,6 +66,85 @@
 
 }
 
+/*Projects Page CSS */
 .projects-grid {
   display: flex;
 }
+
+/* Contact Page CSS*/
+.contact-body {
+  margin: auto;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2em; 
+}
+
+.contact-grid {
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: 550px;
+  background: white;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.contact-grid h2 {
+  font-family: 'Anton', sans-serif;
+}
+
+.contact-grid p {
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
+}
+.contact-grid hr {
+  border-top: 5px dotted black;
+  width: 50%;
+  margin: auto;
+}
+.contact-list i {
+  font-size: 66px;
+  padding-right: 5rem;
+}
+
+/*Cv Page CSS */
+.cv-right-col {
+  background: #27221F;
+  color: white;
+  padding: 2em;
+}
+
+.cv-left-col {
+  text-align: center;
+  justify-content: center;
+}
+
+.cv-left-col hr {
+  margin: auto;
+}
+
+.cv-left-col p {
+  margin: auto;
+  width: '50%';
+  justify-content: center;
+  padding-top: '5em';
+  padding-bottom: '5em'; 
+}
+
+/*Contact Page CSS*/
+.contact-page-grid {
+  background: #1488CC;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2B32B2, #1488CC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding-top: 5em;
+}
+

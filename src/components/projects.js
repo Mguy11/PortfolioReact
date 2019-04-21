@@ -24,9 +24,9 @@ class Projects extends Component {
                             Mauris sagittis pellentesque lacus eleifend lacinia...
                         </CardText>
                         <CardActions border>
-                            <Button colored>Github</Button>
-                            <Button colored>CodePen</Button>
-                            <Button colored>Live Demo</Button>
+                            <Button ripple>Github</Button>
+                            <Button ripple>CodePen</Button>
+                            <Button ripple>Live Demo</Button>
                         </CardActions>
                         <CardMenu style={{color: "#fff"}}>
                             <IconButton name="share" />
