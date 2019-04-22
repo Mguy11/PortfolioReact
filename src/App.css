@@ -1,14 +1,13 @@
 .header-color {
-  background: #1488CC;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #2B32B2, #1488CC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #36D1DC;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #5B86E5, #36D1DC);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .landing-grid {
-  background: #1488CC;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #2B32B2, #1488CC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  
+  background: #36D1DC;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #5B86E5, #36D1DC);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   text-align: center;
   position: fixed;
   top: 0;
@@ -19,7 +18,7 @@
 }
 /*Landing Page CSS */
 .avatar-img {
-  height: 150px;
+  height: 40%;
   padding-top: 5em;
 }
 
@@ -35,7 +34,12 @@
   font-size: 66px;
   font-weight: bold;
   color: white;
-  
+}
+
+.banner-text h3 {
+  font-size: 44px;
+  font-style: italic;
+  color: white;
 }
 
 .banner-text hr {
@@ -47,7 +51,7 @@
 .banner-text p {
   color: white;
   font-size: 20px;
-  padding: 1em;
+  padding: 2em;
   
 }
 
@@ -63,7 +67,12 @@
   color: white;
   font-size: 5em;
   padding: 8px;
+}
 
+.landing-title {
+  font-family: 'Anton', sans-serif;
+  
+  margin-top: 5em;
 }
 
 /*Projects Page CSS */
@@ -111,7 +120,7 @@
 
 /*Cv Page CSS */
 .cv-right-col {
-  background: #27221F;
+  background: #434343;
   color: white;
   padding: 2em;
 }
@@ -131,7 +140,7 @@
 .cv-left-col hr {
   margin: auto;
   width: 100%;
-  border-top: 3px solid #833fb2;
+  border-top: 3px solid #5B86E5;
 }
 
 .cv-left-col p {
@@ -147,15 +156,25 @@
   justify-content: space-between;
   width: 50%;
   margin: auto;
+}
 
+.cv-right-col hr {
+  margin: auto;
+  width: 100%;
+  border-top: 3px solid #36D1DC;
 }
 
 .cv-social-links i {
   color: black;
   font-size: 2em;
   padding: 8px;
-
 }
+
+.cv-avatar-img {
+  height: 40%;
+  padding-top: 1em;
+}
+
 
 /*Contact Page CSS*/
 .contact-page-grid {

@@ -130,12 +130,59 @@ class Projects extends Component {
                     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                         <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://cdn-images-1.medium.com/max/2400/1*D8Wwwce8wS3auLAiM3BQKA.jpeg) center / cover'}}>React Project #1</CardTitle>
                         <CardText>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Mauris sagittis pellentesque lacus eleifend lacinia...
+                            Dinorun is mijn game gemaakt als school opdracht. Ik heb hem geschreven in 
+                            TypeScript. Het is een simpele game waar je als Dino speelt en moet proberen alle eieren op te vangen.
+                            Maar pas op voor de stenen, want die doen pijn.
+                        </CardText>
+                        <CardActions border>
+                            <Button colored>Github</Button>
+                            <Button colored>Live Demo</Button>
+                        </CardActions>
+                        <CardMenu style={{color: "#fff"}}>
+                            <IconButton name="share" />
+                        </CardMenu>
+                    </Card>
+            </div>
+            )
+        } else if (this.state.activeTab === 4) {
+            return(
+
+                /*HTML/CSS Projects*/
+                <div className="projects-grid">
+
+                {/* Project 1 */}
+                    <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                        <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://i.udemycdn.com/course/750x422/792484_cc98_3.jpg) center / cover'}}>React Project #1</CardTitle>
+                        <CardText>
+                            Dit is mijn eerste website die ik ooit heb gemaakt. Ik heb hem gemaakt
+                            aan de hand van een template van HTML5up.
                         </CardText>
                         <CardActions border>
                             <Button colored>Github</Button>
                             <Button colored>CodePen</Button>
+                            <Button colored>Live Demo</Button>
+                        </CardActions>
+                        <CardMenu style={{color: "#fff"}}>
+                            <IconButton name="share" />
+                        </CardMenu>
+                    </Card>
+            </div>
+            )
+        } else if (this.state.activeTab === 5) {
+            return(
+
+                /*Wordpress Projects*/
+                <div className="projects-grid">
+
+                {/* Project 1 */}
+                    <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                        <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://beautifulthemes.com/blog/wp-content/uploads/2017/09/how-to-install-wp-theme.jpg) center / cover'}}>React Project #1</CardTitle>
+                        <CardText>
+                            Dit is de website die ik in elkaar gezet heb met WordPress voor een vriend. 
+                            Hij is begonnen als volkszanger en wilde een eigen website waar hij zijn 
+                            nieuwe singles, berichten en foto's kon delen.
+                        </CardText>
+                        <CardActions border>
                             <Button colored>Live Demo</Button>
                         </CardActions>
                         <CardMenu style={{color: "#fff"}}>
@@ -145,29 +192,24 @@ class Projects extends Component {
 
                     {/* Project 2 */}
                     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                        <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://cdn-images-1.medium.com/max/2400/1*D8Wwwce8wS3auLAiM3BQKA.jpeg) center / cover'}}>React Project #1</CardTitle>
+                        <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://beautifulthemes.com/blog/wp-content/uploads/2017/09/how-to-install-wp-theme.jpg) center / cover'}}>React Project #1</CardTitle>
                         <CardText>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Mauris sagittis pellentesque lacus eleifend lacinia...
+                            Dit is de website die ik in elkaar gezet heb met WordPress voor een klant.
+                            Hij wilde een website waar hij een soort blog kon bijhouden voor zijn
+                            bedrijfje wat hij heeft.
                         </CardText>
                         <CardActions border>
-                            <Button colored>Github</Button>
-                            <Button colored>CodePen</Button>
                             <Button colored>Live Demo</Button>
                         </CardActions>
                         <CardMenu style={{color: "#fff"}}>
                             <IconButton name="share" />
                         </CardMenu>
                     </Card>
-
             </div>
             )
         }
 
     }
-
-    
-
     render() {
         return(
             <div className="category-tabs">
@@ -176,6 +218,8 @@ class Projects extends Component {
                     <Tab>VueJS</Tab>
                     <Tab>PHP</Tab>
                     <Tab>TypeScript</Tab>
+                    <Tab>HTML/CSS</Tab>
+                    <Tab>Wordpress</Tab>
                 </Tabs>
          
                 <Grid>

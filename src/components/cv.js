@@ -13,14 +13,14 @@ class Cv extends Component {
                     <Cell col={4}>
                         <div style={{textAlign: 'center'}}>
                             <img
-                                src="https://www.shareicon.net/download/2015/09/18/103157_man_512x512.png"
+                                src="https://avataaars.io/?avatarStyle=Circle&topType=ShortHairDreads01&accessoriesType=Blank&hairColor=Black&facialHairType=Blank&clotheType=GraphicShirt&clotheColor=Black&graphicType=Diamond&eyeType=Default&eyebrowType=Default&mouthType=Default&skinColor=Light"
                                 alt="avatar"
-                                style={{height: '200px'}}
+                                className="cv-avatar-img"
                             />
                         </div>
                         <div className="cv-left-col">
                             <h2 style={{paddingTop: '2em'}}> Martijn Bankert</h2>
-                            <h4 style={{color: 'grey'}}>WebDeveloper</h4>
+                            <h4 style={{color: 'grey'}}>Junior WebDeveloper</h4>
                             <hr/>
                             <p>Hi, 
                                 Ik ben Martijn, een student Creative Media and Game 
@@ -41,34 +41,34 @@ class Cv extends Component {
 
                             <div className="cv-social-links">
 
-                            {/* Github */}
-                            <div className="social-links">
-                                <a href="https://github.com/Mguy11" rel="noopener noreferrer" target="_blank">
-                                    <i className="fa fa-github" aria-hidden="true" />
-                                </a>
-                            </div> 
+                                {/* Github */}
+                                <div className="social-links">
+                                    <a href="https://github.com/Mguy11" rel="noopener noreferrer" target="_blank">
+                                        <i className="fa fa-github" aria-hidden="true" />
+                                    </a>
+                                </div> 
 
-                            {/* LinkedIn */}
-                            <div className="social-links">
-                                <a href="https://www.linkedin.com/in/martijn-bankert-389491161/" rel="noopener noreferrer" target="_blank">
-                                    <i className="fa fa-linkedin" aria-hidden="true" />
-                                </a>
-                            </div> 
+                                {/* LinkedIn */}
+                                <div className="social-links">
+                                    <a href="https://www.linkedin.com/in/martijn-bankert-389491161/" rel="noopener noreferrer" target="_blank">
+                                        <i className="fa fa-linkedin" aria-hidden="true" />
+                                    </a>
+                                </div> 
 
-                            {/* CodePen */}
-                            <div className="social-links">
-                                <a href="https://codepen.io/Mguy11/" rel="noopener noreferrer" target="_blank">
-                                    <i className="fa fa-codepen" aria-hidden="true" />
-                                </a>
+                                {/* CodePen */}
+                                <div className="social-links">
+                                    <a href="https://codepen.io/Mguy11/" rel="noopener noreferrer" target="_blank">
+                                        <i className="fa fa-codepen" aria-hidden="true" />
+                                    </a>
+                                </div>
+
+                                {/* Youtube */}
+                                <div className="social-links">
+                                    <a href="https://www.youtube.com/channel/UCaozaAhapU8JmymN7BBU-lA" rel="noopener noreferrer" target="_blank">
+                                        <i className="fa fa-youtube" aria-hidden="true" />
+                                    </a>
+                                </div>
                             </div>
-
-                            {/* Youtube */}
-                            <div className="social-links">
-                                <a href="https://www.youtube.com/channel/UCaozaAhapU8JmymN7BBU-lA" rel="noopener noreferrer" target="_blank">
-                                    <i className="fa fa-youtube" aria-hidden="true" />
-                                </a>
-                            </div>
-                    </div>
                         </div>
                     </Cell>
                     <Cell className="cv-right-col" col={8}>
@@ -106,7 +106,7 @@ class Cv extends Component {
                             schoolOmschrijving="Hier studeer ik nu Creative Media and Game Technologies."
                         />
 
-                        <hr style={{borderTop: '3px solid #e22947'}}/>
+                        <hr/>
 
                         <h2>Ervaring</h2>
                         
@@ -136,7 +136,7 @@ class Cv extends Component {
                             werkNaam="Junior Webdeveloper"
                             werkOmschrijving="Werkzaam als Junior Webdeveloper bij 'IDN'"
                         />
-                        <hr style={{borderTop: '3px solid #e22947'}}/>
+                        <hr/>
 
                         <h2>Skills</h2>
                         <Skills/>
