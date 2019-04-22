@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -66,3 +67,9 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+=======
+# PortfolioReact
+Dit is mijn portfolio website gemaakt met React.
+
+Het is mijn eerste keer dat ik werk met React. Ik mezelf verder ontwikkelen als front-end developer.
+>>>>>>> 53a388a572f760e063ff3b204222131e6d7f88f3
