@@ -16,7 +16,7 @@ class Projects extends Component {
                 /*React Projects*/
                 <div className="projects-grid">
 
-                {/* Project 1 */}
+                {/* Project Portfolio Website */}
                     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                         <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2017/04/1493235373large_react_apps_A-01.png) center / cover'}}>Portfolio</CardTitle>
                         <CardText>
@@ -41,50 +41,16 @@ class Projects extends Component {
                 /*Vue Projects*/
                 <div className="projects-grid">
 
-                {/* Project 1 */}
+                {/* Project API + Front-end*/}
                     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                         <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://cdn-images-1.medium.com/max/1200/1*-PlqbnwqjqJi_EVmrhmuDQ.jpeg) center / cover'}}>React Project #1</CardTitle>
                         <CardText>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Mauris sagittis pellentesque lacus eleifend lacinia...
+                            Dit is mijn eerste kennismaking met een Front-end Framework, Servers (Back-end) en API's. Ik heb hier gebruik gemaakt van VueJS.
+                            Ik heb eerst een eigen API gemaakt die Json ophaalt van mijn eigen server. Vervolgens wordt dit alles
+                            ingeladen in mijn Vue app.
                         </CardText>
                         <CardActions border>
-                            <Button colored>Github</Button>
-                            <Button colored>CodePen</Button>
-                            <Button colored>Live Demo</Button>
-                        </CardActions>
-                        <CardMenu style={{color: "#fff"}}>
-                            <IconButton name="share" />
-                        </CardMenu>
-                    </Card>
-
-                    {/* Project 2 */}
-                    <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                        <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://cdn-images-1.medium.com/max/1200/1*-PlqbnwqjqJi_EVmrhmuDQ.jpeg) center / cover'}}>React Project #1</CardTitle>
-                        <CardText>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Mauris sagittis pellentesque lacus eleifend lacinia...
-                        </CardText>
-                        <CardActions border>
-                            <Button colored>Github</Button>
-                            <Button colored>CodePen</Button>
-                            <Button colored>Live Demo</Button>
-                        </CardActions>
-                        <CardMenu style={{color: "#fff"}}>
-                            <IconButton name="share" />
-                        </CardMenu>
-                    </Card>
-
-                    {/* Project 3 */}
-                    <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                        <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://cdn-images-1.medium.com/max/1200/1*-PlqbnwqjqJi_EVmrhmuDQ.jpeg) center / cover'}}>React Project #1</CardTitle>
-                        <CardText>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Mauris sagittis pellentesque lacus eleifend lacinia...
-                        </CardText>
-                        <CardActions border>
-                            <Button colored>Github</Button>
-                            <Button colored>CodePen</Button>
+                            <Button href='https://github.com/Mguy11/Programmeren6' target='_blank' colored>Github</Button>
                             <Button colored>Live Demo</Button>
                         </CardActions>
                         <CardMenu style={{color: "#fff"}}>
@@ -100,17 +66,34 @@ class Projects extends Component {
                 /*PHP Projects*/
                 <div className="projects-grid">
 
-                {/* Project 1 */}
+                {/* Project Reserveringssysteem */}
                     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                         <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://www.archer.com.mt/wp-content/uploads/php1.jpg) center / cover'}}>React Project #1</CardTitle>
                         <CardText>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Mauris sagittis pellentesque lacus eleifend lacinia...
+                            Ik heb als schoolproject een Reserveringssysteem gebouwt met PHP. Dit was de
+                            eerste keer dat ik met PHP ging werken. Ik heb een simpel Admin systeem werkend waar
+                            de Admin alle reserveringen kan beheren.
                         </CardText>
                         <CardActions border>
-                            <Button colored>Github</Button>
-                            <Button colored>CodePen</Button>
-                            <Button colored>Live Demo</Button>
+                            <Button href='#' target='_blank' colored>Github</Button>
+                            <Button href='#' target='_blank' colored>Live Demo</Button>
+                        </CardActions>
+                        <CardMenu style={{color: "#fff"}}>
+                            <IconButton name="share" />
+                        </CardMenu>
+                    </Card>
+
+                    {/* Project Pogo */}
+                    <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                        <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://www.archer.com.mt/wp-content/uploads/php1.jpg) center / cover'}}>React Project #1</CardTitle>
+                        <CardText>
+                            Dit is mijn tweede project in PHP. Ik heb hiervoor Laravel gebruikt als framework. 
+                            De website heeft volledige CRUD functionaliteit en was gebouwt om onze Pokémon Go community
+                            te helpen met het makkelijker toevoegen en zoeken van vrienden. 
+                        </CardText>
+                        <CardActions border>
+                            <Button href='#' target='_blank' colored>Github</Button>
+                            <Button href='#' target='_blank' colored>Live Demo</Button>
                         </CardActions>
                         <CardMenu style={{color: "#fff"}}>
                             <IconButton name="share" />
@@ -130,13 +113,13 @@ class Projects extends Component {
                     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                         <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://cdn-images-1.medium.com/max/2400/1*D8Wwwce8wS3auLAiM3BQKA.jpeg) center / cover'}}>React Project #1</CardTitle>
                         <CardText>
-                            Dinorun is mijn game gemaakt als school opdracht. Ik heb hem geschreven in 
+                            Dinorun is mijn webgame gemaakt als school opdracht. Ik heb hem geschreven in 
                             TypeScript. Het is een simpele game waar je als Dino speelt en moet proberen alle eieren op te vangen.
                             Maar pas op voor de stenen, want die doen pijn.
                         </CardText>
                         <CardActions border>
-                            <Button colored>Github</Button>
-                            <Button colored>Live Demo</Button>
+                            <Button href='https://github.com/Mguy11/DinoRun' target='_blank' colored>Github</Button>
+                            <Button href='https://dinorun.bear-media.nl/' target='_blank' colored>Live Demo</Button>
                         </CardActions>
                         <CardMenu style={{color: "#fff"}}>
                             <IconButton name="share" />
@@ -158,9 +141,8 @@ class Projects extends Component {
                             aan de hand van een template van HTML5up.
                         </CardText>
                         <CardActions border>
-                            <Button colored>Github</Button>
-                            <Button colored>CodePen</Button>
-                            <Button colored>Live Demo</Button>
+                            <Button href='https://github.com/Mguy11/Karin-s-Fashion' target='_blank' colored>Github</Button>
+                            <Button href='https://www.karins-fashion.nl' target='_blank' colored>Live Site</Button>
                         </CardActions>
                         <CardMenu style={{color: "#fff"}}>
                             <IconButton name="share" />
@@ -183,7 +165,7 @@ class Projects extends Component {
                             nieuwe singles, berichten en foto's kon delen.
                         </CardText>
                         <CardActions border>
-                            <Button colored>Live Demo</Button>
+                            <Button href='https://www.ricardolips.nl/' target="_blank" colored>Live Site</Button>
                         </CardActions>
                         <CardMenu style={{color: "#fff"}}>
                             <IconButton name="share" />
@@ -199,7 +181,7 @@ class Projects extends Component {
                             bedrijfje wat hij heeft.
                         </CardText>
                         <CardActions border>
-                            <Button colored>Live Demo</Button>
+                            <Button href='http://www.motumentvoorjou.nl/' target="_blank" colored>Live Site</Button>
                         </CardActions>
                         <CardMenu style={{color: "#fff"}}>
                             <IconButton name="share" />

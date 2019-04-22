@@ -20,7 +20,7 @@ class LandingPage extends Component {
 
                     <hr/>
 
-                    <p>C# | HTML/CSS | JavaScript | PHP | React | TypeScript | Vue | WordPress </p>
+                    <p>C# | HTML/CSS | JavaScript | PHP | React | SEO | TypeScript | Vue | WordPress </p>
                     <div className="social-links">
 
                         {/* Github */}
