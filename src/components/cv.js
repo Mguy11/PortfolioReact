@@ -3,14 +3,16 @@ import { Grid, Cell } from 'react-mdl';
 import Opleiding from './opleiding';
 import Ervaring from './ervaring';
 import Skills from './skills';
+import Programs from './programs';
 
 
 class Cv extends Component {
     render() {
         return(
             <div>
-                <Grid>
+                <Grid>     
                     <Cell col={4}>
+                        <div className="cv-left-col">
                         <div style={{textAlign: 'center'}}>
                             <img
                                 src="https://avataaars.io/?avatarStyle=Circle&topType=ShortHairDreads01&accessoriesType=Blank&hairColor=Black&facialHairType=Blank&clotheType=GraphicShirt&clotheColor=Black&graphicType=Diamond&eyeType=Default&eyebrowType=Default&mouthType=Default&skinColor=Light"
@@ -18,12 +20,12 @@ class Cv extends Component {
                                 className="cv-avatar-img"
                             />
                         </div>
-                        <div className="cv-left-col">
+                        
                             <h2 style={{paddingTop: '2em'}}> Martijn Bankert</h2>
                             <h4 style={{color: 'grey'}}>Junior WebDeveloper</h4>
                             <hr/>
                             <p>Hi, 
-                                Ik ben Martijn, een student Creative Media and Game 
+                                Ik ben Martijn, een 2e jaars student Creative Media and Game 
                                 Technologies en junior Webdeveloper. Mijn droom is 
                                 front-end developer worden en straks van mijn hobby
                                 mijn werk te maken. Ik wil me nu vooral gaan 
@@ -33,12 +35,10 @@ class Cv extends Component {
                                 altijd handig is om te hebben. 
                             </p>
                             <hr/>
-                            <h5>Adres</h5>
-                            <p>Wijnhaven 107, Rotterdam</p>
-                            <h5>Email</h5>
-                            <p>mbankert146@gmail.com</p>
+                            
+                               
                             <hr/>
-
+                            
                             <div className="cv-social-links">
 
                                 {/* Github */}
@@ -71,6 +71,7 @@ class Cv extends Component {
                             </div>
                         </div>
                     </Cell>
+                    
                     <Cell className="cv-right-col" col={8}>
                         <h2>Opleiding</h2>
 
@@ -87,7 +88,7 @@ class Cv extends Component {
                             beginJaar={2015}
                             eindJaar={2016}
                             schoolNaam="Hogeschool Rotterdam"
-                            schoolOmschrijving="Hier heb ik Technische Informatica gestudeert. Gestopt door eigen HR studiepunt regeling"
+                            schoolOmschrijving="Hier heb ik Technische Informatica gestudeert. Gestopt door eigen studiepunt regeling van de Hogeschool Rotterdam."
                         />
 
                         {/*Informatica*/}
@@ -95,7 +96,7 @@ class Cv extends Component {
                             beginJaar={2016}
                             eindJaar={2017}
                             schoolNaam="Hogeschool Rotterdam"
-                            schoolOmschrijving="Hier heb ik Informatica gestudeert. Gestopt omdat de studie totaal niet aansloot bij wat ik wilde"
+                            schoolOmschrijving="Hier heb ik Informatica gestudeert. Gestopt omdat de studie totaal niet aansloot bij wat ik wilde."
                         />
 
                         {/*Creative Media and Game Technologies*/}
@@ -108,7 +109,7 @@ class Cv extends Component {
 
                         <hr/>
 
-                        <h2>Ervaring</h2>
+                        <h2>Werk Ervaring</h2>
                         
                         <Ervaring
                             beginJaar={2013}
@@ -140,6 +141,8 @@ class Cv extends Component {
 
                         <h2>Skills</h2>
                         <Skills/>
+
+                       
 
                     </Cell>
                 </Grid>

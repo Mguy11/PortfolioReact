@@ -10,7 +10,7 @@ class Opleiding extends Component {
                 </Cell>
                 <Cell col={8}>
                     <h4 style={{marginTop: '0px'}}>{this.props.schoolNaam}</h4>
-                    <p>{this.props.schoolOmschrijving}</p>
+                    <p style={{fontFamily: 'Roboto'}}>{this.props.schoolOmschrijving}</p>
                 </Cell>
             </Grid>
         )
