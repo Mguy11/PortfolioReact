@@ -16,7 +16,7 @@ class LandingPage extends Component {
 
                     <h1>Martijn Bankert</h1>
 
-                    <h3>Junior WebDeveloper</h3>
+                    <h3>Student CMGT</h3>
 
                     <hr/>
 

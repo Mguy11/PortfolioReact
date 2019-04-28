@@ -13,10 +13,11 @@ class AboutMe extends Component {
                              alt='avatar'
                         />
                         <h2>Martijn Bankert</h2>
-                        <p style={{width: '75%', margin: 'auto', paddingTop: '1em'}}>Hi, Ik ben Martijn, een student Creative Media and Game Technologies en junior Webdeveloper.
-                         Mijn droom is front-end developer worden en straks van mijn hobby mijn werk te maken.
-                         Ik wil me nu vooral gaan richten op front-end technieken zoals React en op webdesign, zodat ik mijn droom waar kan gaan maken. 
-                         Ik wil me ook verder verdiepen in Technisch SEO, omdat de combinatie van development en SEO altijd handig is om te hebben.
+                        <p style={{width: '75%', margin: 'auto', paddingTop: '1em'}}>Hi, Ik ben Martijn, een student Creative Media and Game Technologies en Junior Webdeveloper bij IDN.
+                                    Mijn droom is front-end developer worden en straks van mijn hobby mijn werk te maken.
+                                    Ik wil me nu vooral gaan richten op front-end technieken zoals <b>Angular</b>, <b>React</b>, <b>Vue</b> en mijn <b>CSS</b>, omdat ik mijn skills op deze gebieden wil verbeteren en uitbreiden. 
+
+
                             </p>
                     </Cell>
                     <Cell col={6}>
@@ -35,6 +36,12 @@ class AboutMe extends Component {
                                     <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton'}}>
                                     <i className="fa fa-envelope"/>
                                     mbankert146@gmail.com
+                                    </ListItemContent>
+                                </ListItem>
+                                <ListItem>
+                                    <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton'}}>
+                                    <i class="fa fa-linkedin"></i>
+                                    Martijn Bankert
                                     </ListItemContent>
                                 </ListItem>
                                 <ListItem>

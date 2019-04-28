@@ -3,7 +3,6 @@ import { Grid, Cell } from 'react-mdl';
 import Opleiding from './opleiding';
 import Ervaring from './ervaring';
 import Skills from './skills';
-import Programs from './programs';
 
 
 class Cv extends Component {
@@ -13,30 +12,30 @@ class Cv extends Component {
                 <Grid>     
                     <Cell col={4}>
                         <div className="cv-left-col">
-                        <div style={{textAlign: 'center'}}>
+
                             <img
                                 src="https://avataaars.io/?avatarStyle=Circle&topType=ShortHairDreads01&accessoriesType=Blank&hairColor=Black&facialHairType=Blank&clotheType=GraphicShirt&clotheColor=Black&graphicType=Diamond&eyeType=Default&eyebrowType=Default&mouthType=Default&skinColor=Light"
                                 alt="avatar"
                                 className="cv-avatar-img"
                             />
-                        </div>
+                    
                         
-                            <h2 style={{paddingTop: '2em'}}> Martijn Bankert</h2>
-                            <h4 style={{color: 'grey'}}>Junior WebDeveloper</h4>
+                            <h2 style={{paddingTop: '1em'}}> Martijn Bankert</h2>
+                            <h4 style={{color: 'grey'}}>Student CMGT</h4>
                             <hr/>
-                            <p>Hi, 
-                                Ik ben Martijn, een 2e jaars student Creative Media and Game 
-                                Technologies en junior Webdeveloper. Mijn droom is 
-                                front-end developer worden en straks van mijn hobby
-                                mijn werk te maken. Ik wil me nu vooral gaan 
-                                richten op front-end technieken zoals React en op webdesign,
-                                zodat ik mijn droom waar kan gaan maken. Ik wil me ook verder
-                                verdiepen in Technisch SEO, omdat de combinatie van development en SEO 
-                                altijd handig is om te hebben. 
-                            </p>
+                            <div className='cv-text'>
+                                <p>Hi, Ik ben Martijn, een student Creative Media and Game Technologies en Junior Webdeveloper bij IDN.
+                                    Mijn droom is front-end developer worden en straks van mijn hobby mijn werk te maken.
+                                    Ik wil me nu vooral gaan richten op front-end technieken zoals <b>Angular</b>, <b>React</b>, <b>Vue</b> en mijn <b>CSS</b>, omdat ik mijn skills op deze gebieden wil verbeteren en uitbreiden. 
+                                </p>
+                            </div>
                             <hr/>
-                            
-                               
+                            <div className='cv-eigenschappen'>
+                                <h4>Eigenschappen:</h4>
+                                <p style={{fontStyle: 'italic'}}>" Ambitieus, Creatief, Geduldig, Flexibel, Doorzettingsvermogen, 
+                                   Hulpvaardig, Leergierig. "
+                                </p>
+                            </div>
                             <hr/>
                             
                             <div className="cv-social-links">
@@ -141,8 +140,6 @@ class Cv extends Component {
 
                         <h2>Skills</h2>
                         <Skills/>
-
-                       
 
                     </Cell>
                 </Grid>
