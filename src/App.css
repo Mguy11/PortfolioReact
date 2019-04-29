@@ -2,8 +2,6 @@
   background: #00d2ff;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #3a7bd5, #00d2ff);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #3a7bd5, #00d2ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  
-
 
 }
 
@@ -11,9 +9,6 @@
   background: #00d2ff;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #3a7bd5, #00d2ff);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #3a7bd5, #00d2ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  
-  
-
   text-align: center;
   position: fixed;
   top: 0;
@@ -22,7 +17,9 @@
   height: 100%;
 
 }
+
 /*Landing Page CSS */
+
 .avatar-img {
   height: 40%;
   padding-top: 5em;
@@ -58,7 +55,6 @@
   color: white;
   font-size: 20px;
   padding: 2em;
-  
 }
 
 .social-links {
@@ -66,7 +62,6 @@
   justify-content: space-between;
   width: 50%;
   margin: auto;
-
 }
 
 .social-links i {
@@ -85,11 +80,25 @@
 }
 
 /*Projects Page CSS */
+
 .projects-grid {
-  display: flex;
+ width: 80%;
+}
+
+.zoom {
+  height: auto;
+  padding: .5em;
+  transition: transform .4s; 
+}
+
+.zoom:hover {
+  -ms-transform: scale(.9); /* IE 9 */
+  -webkit-transform: scale(.9); /* Safari 3-8 */
+  transform: scale(.9); 
 }
 
 /*About me Page CSS*/
+
 .contact-body {
   margin: auto;
   position: fixed;
@@ -132,6 +141,7 @@
 }
 
 /*Cv Page CSS */
+
 .cv-right-col {
   background: #434343;
   color: white;
@@ -197,7 +207,6 @@
   justify-content: space-between;
   margin: 5em;
 }
-
 
 .cv-program {
   height: 75px;
