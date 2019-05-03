@@ -97,6 +97,13 @@
   transform: scale(.9); 
 }
 
+.projects-titel {
+  text-align: center;
+}
+.projects-titel h1 {
+  font-family: 'Roboto', sans-serif;
+}
+
 /*About me Page CSS*/
 
 .contact-body {
@@ -138,6 +145,12 @@
 .contact-list i {
   font-size: 66px;
   padding-right: 5rem;
+}
+.contact-avatar {
+  transform: rotate(-90deg);
+  height: 250px;
+  padding-bottom: 1rem;
+  
 }
 
 /*Cv Page CSS */
@@ -224,4 +237,20 @@
   padding-bottom: 1em;
 }
 
+.project-title {
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.project-foto {
+  height: auto;
+  width: 100%;
+}
+
+.project-body {
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
 

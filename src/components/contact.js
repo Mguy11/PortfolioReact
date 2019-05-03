@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Cell, List, ListItem, ListItemContent} from 'react-mdl';
-
+import Image from 'react-bootstrap/Image'
 
 class Contact extends Component {
     render() {
@@ -9,16 +9,16 @@ class Contact extends Component {
                 <Grid className="contact-grid">
                     <Cell col={6}>
                         
-                        <img src='https://avataaars.io/?avatarStyle=Circle&topType=ShortHairDreads01&accessoriesType=Blank&hairColor=Black&facialHairType=Blank&clotheType=GraphicShirt&clotheColor=Black&graphicType=Diamond&eyeType=Wink&eyebrowType=Default&mouthType=Default&skinColor=Light'
+                        <Image src='/images/Pasfoto1.0.jpg'
                              alt='avatar'
+                             className='contact-avatar'
+                             fluid
                         />
-                        <h2>Martijn Bankert</h2>
-                        <p style={{width: '75%', margin: 'auto', paddingTop: '1em'}}>Hi, Ik ben Martijn, een student Creative Media and Game Technologies en Junior Webdeveloper bij IDN.
-                                    Mijn droom is front-end developer worden en straks van mijn hobby mijn werk te maken.
-                                    Ik wil me nu vooral gaan richten op front-end technieken zoals <b>Angular</b>, <b>React</b>, <b>Vue</b> en mijn <b>CSS</b>, omdat ik mijn skills op deze gebieden wil verbeteren en uitbreiden. 
-
-
-                            </p>
+                        <h2 style={{paddingTop: '1em'}}>Martijn Bankert</h2>
+                        <p style={{width: '75%', margin: 'auto', paddingTop: '1em'}}>Ik ben op zoek naar een front-end stageplek waar ik mijzelf verder kan ontwikkelen in, bij voorkeur, React. 
+                        Verder wil ik heel graag meer leren over animaties en webapplicaties in het algemeen. Als er een mogelijkheid is zou ik ook meer willen leren over Technisch SEO om zo mijn 
+                        skills nog verder uit te breiden.
+                        </p>
                     </Cell>
                     <Cell col={6}>
                         <h2>Contact</h2>
