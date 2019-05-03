@@ -8,7 +8,7 @@ class LandingPage extends Component {
             <Grid className="landing-grid">
                 <Cell col={12}>
                 <img
-                    src="https://avataaars.io/?avatarStyle=Transparent&topType=ShortHairDreads01&accessoriesType=Blank&hairColor=Black&facialHairType=Blank&clotheType=GraphicShirt&clotheColor=Black&graphicType=Diamond&eyeType=Default&eyebrowType=Default&mouthType=Default&skinColor=Light"
+                    src="/images/Avatar_Martijn_2.png"
                     alt="avatar"
                     className="avatar-img"
                 />

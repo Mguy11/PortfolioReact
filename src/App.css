@@ -1,14 +1,15 @@
 .header-color {
-  background: #00d2ff;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #3a7bd5, #00d2ff);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #3a7bd5, #00d2ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #D70F08;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #910503, #D70F08);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #910503, #D70F08); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 
 .landing-grid {
-  background: #00d2ff;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #3a7bd5, #00d2ff);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #3a7bd5, #00d2ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #D70F08;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #910503, #D70F08);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #910503, #D70F08); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   text-align: center;
   position: fixed;
   top: 0;
@@ -27,7 +28,7 @@
 
 .banner-text {
   background-color: black;
-  opacity: .8;
+  opacity: .9;
   width: 75%;
   margin: auto;
   border-radius: 10px;
@@ -59,7 +60,7 @@
 
 .social-links {
   display: flex;
-  justify-content: space-between;
+  justify-content: s;
   width: 50%;
   margin: auto;
 }
@@ -112,7 +113,7 @@
   width: 100%;
   height: 100%;
   justify-content: center;
-  padding-top: 2em; 
+  padding-top: 8em; 
 }
 
 .contact-grid {
@@ -126,16 +127,18 @@
 }
 
 .contact-grid h2 {
-  font-family: 'Anton', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 'bold';
 }
 
 .contact-grid p {
   font-family: 'Roboto', sans-serif;
-  font-weight: bold;
+  font-size: 16px;
+  
 }
 .contact-grid hr {
   border-top: 5px dotted black;
-  width: 50%;
+  width: 100%;
   margin: auto;
 }
 .contact-list {
@@ -150,7 +153,6 @@
   transform: rotate(-90deg);
   height: 250px;
   padding-bottom: 1rem;
-  
 }
 
 /*Cv Page CSS */
@@ -179,7 +181,7 @@
 .cv-left-col hr {
   margin: auto;
   width: 100%;
-  border-top: 3px solid #00d2ff;
+  border-top: 3px solid #910503;
 }
 
 .cv-left-col p {
@@ -201,7 +203,7 @@
 .cv-right-col hr {
   margin: auto;
   width: 100%;
-  border-top: 3px solid #3a7bd5;
+  border-top: 3px solid #D70F08;
 }
 
 .cv-social-links i {
@@ -211,7 +213,7 @@
 }
 
 .cv-avatar-img {
-  height: 30%;
+  height: 350px;
   padding-top: 1em;
 }
 
@@ -250,7 +252,11 @@
 
 .project-body {
   text-align: center;
-  padding-top: 1em;
-  padding-bottom: 1em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.project-body p {
+  padding: 1em;
 }
 

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
+import { Button } from 'react-bootstrap';
 import Image from 'react-bootstrap/Image'
 
 class Karinsfashion extends Component {
@@ -13,44 +14,63 @@ class Karinsfashion extends Component {
                 
                 <Cell col={4} offset={2}>
                     <Image
-                        src="/images/Ricardo_Lips_Full_Website.png"
+                        src="/images/Karins_Fashion_Thumbnail.png"
                         alt="Ricardo_Lips_Full_Website"
+                        style={{boxShadow: '10px 10px 5px grey'}}
                         fluid
                     />
                 </Cell>
            
                 <Cell col={4} className="project-body">
+                    <h3>Wat is het voor project?</h3>
                     <p>
-                        Ik wilde graag een portfolio bouwen om mijn werk te laten zien. Tevens wilde ik ook gaan oefenen met 
-                        React aangezien ik een front-end stage zoek waar ik kan gaan werken met een front-end framework. Ik had
-                        nog niet gewerkt met React toen ik hier aan begon. Ik heb eerst een aantal tutorials gevolgd een een beetje geoefend met 
-                        kleine pagina's om een idee te krijgen wat mogelijk is. Na een tijdje had ik een beetje door hoe React werkt en 
-                        zag ik de overeenkomsten met Vue. Toch vind ik tot nu toe React fijner werken, omdat de syntax goed te snappen is 
-                        en er is heel veel documentatie te vinden online.
+                        Dit was mijn eerste opdracht die ik heb gehad om een website te bouwen voor een klant. De vraag kwam via
+                        een vriend of ik voor zijn moeders kleding winkel een website kon bouwen. Ook moest de winkel op Google aangemeld worden etc. dus 
+                        dat heb ik ook gelijk meegenomen. Het moeilijke van deze opdracht was dat ik geen richtlijnen had, want er waren geen eisen. De 
+                        website was alleen een extra onderdeel voor de winkel en dat hoefde voor zijn moeder eigenlijk niet. Ik ben toen eerst
+                        begonnen om eerts met <b>WordPress</b> een website te maken, maar dat was toch niet wat ze zochten. Vervolgens heb ik met een template een 
+                        losse website gebouwd.
                     </p>
                 </Cell>
           
            
                 <Cell col={4} offset={2} className="project-body">
                     <p>
-                        Ik wilde graag een portfolio bouwen om mijn werk te laten zien. Tevens wilde ik ook gaan oefenen met 
-                        React aangezien ik een front-end stage zoek waar ik kan gaan werken met een front-end framework. Ik had
-                        nog niet gewerkt met React toen ik hier aan begon. Ik heb eerst een aantal tutorials gevolgd een een beetje geoefend met 
-                        kleine pagina's om een idee te krijgen wat mogelijk is. Na een tijdje had ik een beetje door hoe React werkt en 
-                        zag ik de overeenkomsten met Vue. Toch vind ik tot nu toe React fijner werken, omdat de syntax goed te snappen is 
-                        en er is heel veel documentatie te vinden online.
+                        Omdat het ook mijn eerste website was mocht ik nog een beetje experimenteren. Na een tijdje heb ik de website helemaal
+                        overnieuw gemaakt en dit is het resultaat geworden. Ik heb hier ook mijn eerste beetje kennis opgedaan voor SEO. Nadat de website online ging 
+                        moest hij ook nog gevonden kunnen worden door Google. Ik heb daar toen het een en ander geprobeert te regelen met zowel Google Analytics en wat andere
+                        dingen. De website begon op de 14e plaats en staat nu inmiddels op de 2e plaats in Google en daar ben ik erg blij mee. Ik ben daarna
+                        niet veel meer verder gegaan met de website, omdat ze er echt niks meer aan wilde doen.
                     </p>
                 </Cell>
 
                 <Cell col={4}>
                     <Image
-                        src="/images/Ricardo_Lips_Full_Website.png"
+                        src="/images/Karins_Fashion_Info.png"
                         alt="Ricardo_Lips_Full_Website"
+                        style={{boxShadow: '10px 10px 5px grey'}}
                         fluid
                     />
                 </Cell>
 
+                <Cell col={4} offset={2} className="project-body">
+                    <h3>Wat heb ik hiervoor gebruikt?</h3>
+                    <p>
+                        Ik heb een <b>HTML5UP</b> template gebruikt, omdat ik net leerde programmeren. Ik heb uiteindelijk
+                        wel zelf nog wat <b>HTML</b> en <b>CSS</b> moeten toevoegen en aanpassen om de website zo te krijgen hoe de klant het wilde. Ook
+                        heb ik voor de eerste keer gebruikt gemaakt van <b>JavaScript</b> om de Slideshow te regelen en de Google Maps er in te krijgen.
+                    </p>
+                    
+                    <div className="social-links">
+                        <Button variant="secondary" 
+                            href="https://github.com/Mguy11/Karin-s-Fashion" target="_blank"
+                        >Github</Button>
 
+                        <Button variant="secondary" 
+                            href="https://dinorun.bear-media.nl" target="_blank"
+                        >Bekijk de website</Button>
+                    </div>
+                </Cell>
             </Grid>
         );
     }

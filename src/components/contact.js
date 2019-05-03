@@ -15,7 +15,7 @@ class Contact extends Component {
                              fluid
                         />
                         <h2 style={{paddingTop: '1em'}}>Martijn Bankert</h2>
-                        <p style={{width: '75%', margin: 'auto', paddingTop: '1em'}}>Ik ben op zoek naar een front-end stageplek waar ik mijzelf verder kan ontwikkelen in, bij voorkeur, React. 
+                        <p style={{width: '75%', margin: 'auto', paddingTop: '1em'}}>Ik ben op zoek naar een <b>front-end stageplek</b> waar ik mijzelf verder kan ontwikkelen in, bij voorkeur, React, Vue of Angular. 
                         Verder wil ik heel graag meer leren over animaties en webapplicaties in het algemeen. Als er een mogelijkheid is zou ik ook meer willen leren over Technisch SEO om zo mijn 
                         skills nog verder uit te breiden.
                         </p>
@@ -27,25 +27,25 @@ class Contact extends Component {
                         <div className="contact-list">
                             <List>
                                 <ListItem>
-                                    <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton'}}>
+                                    <ListItemContent style={{fontSize: '25px', fontFamily: 'Roboto', fontWeight: 'bold'}}>
                                     <i className="fa fa-phone-square"/>
                                     (+31) 610708503
                                     </ListItemContent>
                                 </ListItem>
                                 <ListItem>
-                                    <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton'}}>
+                                    <ListItemContent style={{fontSize: '25px', fontFamily: 'Roboto', fontWeight: 'bold'}}>
                                     <i className="fa fa-envelope"/>
                                     mbankert146@gmail.com
                                     </ListItemContent>
                                 </ListItem>
                                 <ListItem>
-                                    <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton'}}>
+                                    <ListItemContent style={{fontSize: '25px', fontFamily: 'Roboto', fontWeight: 'bold'}}>
                                     <i class="fa fa-linkedin"></i>
                                     Martijn Bankert
                                     </ListItemContent>
                                 </ListItem>
                                 <ListItem>
-                                    <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton'}}>
+                                    <ListItemContent style={{fontSize: '25px', fontFamily: 'Roboto', fontWeight: 'bold'}}>
                                     <i className="fa fa fa-skype"/>
                                     m.bankert_1
                                     </ListItemContent>

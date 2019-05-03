@@ -13,15 +13,14 @@ class App extends Component {
               <Header className="header-color" title={<Link style={{textDecoration: 'none', color: 'white'}} to="/" sticky>Home</Link>} scroll>
                   <Navigation>
                       <Link to="/cv">Cv</Link>
-                      <Link to="/projecten">Projecten</Link>
+                      <Link to="/projectenoverzicht">Projecten</Link>
                       <Link to="/contact">Contact</Link>  
-                      <Link to="/projecten2">Projecten2</Link>      
                   </Navigation>
               </Header>
               <Drawer title={<Link style={{textDecoration: 'none', color: 'black'}} to="/">Home</Link>}>
                   <Navigation>
                       <Link to="/cv">Cv</Link>
-                      <Link to="/projecten">Projecten</Link>
+                      <Link to="/projectenoverzicht">Projecten</Link>
                       <Link to="/contact">Contact</Link>
                   </Navigation>
                   <div className="cv-social-links">

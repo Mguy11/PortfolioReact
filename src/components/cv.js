@@ -14,7 +14,7 @@ class Cv extends Component {
                         <div className="cv-left-col">
 
                             <img
-                                src="https://avataaars.io/?avatarStyle=Circle&topType=ShortHairDreads01&accessoriesType=Blank&hairColor=Black&facialHairType=Blank&clotheType=GraphicShirt&clotheColor=Black&graphicType=Diamond&eyeType=Default&eyebrowType=Default&mouthType=Default&skinColor=Light"
+                                src="/images/Avatar_Martijn_1.png"
                                 alt="avatar"
                                 className="cv-avatar-img"
                             />
