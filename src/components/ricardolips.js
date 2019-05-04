@@ -39,7 +39,7 @@ class Ricardolips extends Component {
                 <Cell col={4} offset={2} className="project-body">
                     <h3>Wat heb ik hiervoor gebruikt?</h3>
                     <p>
-                        Voor deze website heb ik dus <b>WordPress</b> gebruikt met een template van Smartcat. Verder heb ik er
+                        Voor deze website heb ik <b>WordPress</b> gebruikt met een template van Smartcat. Verder heb ik er
                         plugins aan toegevoegd om zowel het boekingssysteem als het gastenboek er aan te koppelen. Om de 
                         rest van de pagina's te vullen heb ik gewoon <b>HTML</b> en <b>CSS</b> gebruikt in combinatie met een 
                         extra plugin.
