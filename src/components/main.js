@@ -6,13 +6,13 @@ import Contact from './contact';
 import Cv from './cv';
 
 import Projectenoverzicht from './projectenoverzicht';
-import Reactportfolio from '../projecten/reactportfolio';
-import Dinorun from '../projecten/dinorun';
-import Karinsfashion from '../projecten/karinsfashion';
-import Vueapp from '../projecten/vueapp';
-import Ricardolips from '../projecten/ricardolips';
-import Motument from '../projecten/motument';
-import Rooisklumpke from '../projecten/rooisklumpke';
+import Reactportfolio from './reactportfolio';
+import Dinorun from './dinorun';
+import Karinsfashion from './karinsfashion';
+import Vueapp from './vueapp';
+import Ricardolips from './ricardolips';
+import Motument from './motument';
+import Rooisklumpke from './rooisklumpke';
 
 const Main = () => (
     <Switch>

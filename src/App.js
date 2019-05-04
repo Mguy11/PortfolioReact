@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl'
 import Main from './components/main';
+import Mainfooter from './components/footer';
 import { Link } from 'react-router-dom';
 
 class App extends Component {
@@ -56,7 +57,9 @@ class App extends Component {
               <Content>
                   <div className="page-content" />
                   <Main/>
+                  
               </Content>
+              <Mainfooter/>
           </Layout>
         </div>
     );
