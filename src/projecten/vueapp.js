@@ -8,7 +8,7 @@ class Vueapp extends Component {
             <Grid>
                 
                 <Cell col={12} className="project-title">
-                    <h1>Vueapp</h1>
+                    <h1>Vue front-end met eigen back-end</h1>
                 </Cell>
                 
                 <Cell col={4} offset={2}>

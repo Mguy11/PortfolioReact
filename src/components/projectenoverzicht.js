@@ -16,56 +16,49 @@ class Projectenoverzicht extends Component {
                 </Cell>
                 <Cell col={6} className="zoom">
                     <Card className="bg-dark text-white">
-                    <CardActionArea href="/projecten/reactportfolio">
+                    <CardActionArea href="/reactportfolio">
                         <Card.Img src="/images/Portfolio_React_Thumbnail.png" alt="Card image" />
                         </CardActionArea>
                     </Card>
                 </Cell>
                 <Cell col={6} className="zoom">
                     <Card className="bg-dark text-white">
-                        <CardActionArea href="/projecten/dinorun">
+                        <CardActionArea href="/dinorun">
                             <Card.Img src="/images/Dinorun_Thumbnail.png" alt="Card image" />
                         </CardActionArea>
                     </Card>
                 </Cell>   
                 <Cell col={6} className="zoom">
                     <Card className="bg-dark text-white">
-                        <CardActionArea href="/projecten/karinsfashion">
+                        <CardActionArea href="/karinsfashion">
                             <Card.Img src="/images/Karins_Fashion_Thumbnail.png" alt="Card image" />
                         </CardActionArea>
                     </Card>
                 </Cell>
                 <Cell col={6} className="zoom">
                     <Card className="bg-dark text-white">
-                        <CardActionArea href="/projecten/ricadolips">
+                        <CardActionArea href="/ricadolips">
                             <Card.Img src="/images/Ricardo_Lips_Thumbnail.png" alt="Card image"/>
                         </CardActionArea>
                     </Card>
                 </Cell>
                 <Cell col={6} className="zoom">
                     <Card className="bg-dark text-white">
-                        <CardActionArea href="/projecten/motument">
+                        <CardActionArea href="/motument">
                             <Card.Img src="/images/Motument_Voor_Jou_Thumbnail.png" alt="Card image" />
                         </CardActionArea>       
                     </Card>
                 </Cell>    
                 <Cell col={6} className="zoom">
                     <Card className="bg-dark text-white">
-                        <CardActionArea href="/projecten/vueapp">
-                            <Card.Img src="/images/Vue_App_Thumbnail.png" alt="Card image" />
-                        </CardActionArea>
-                    </Card>
-                </Cell>
-                <Cell col={6} className="zoom">
-                    <Card className="bg-dark text-white">
-                        <CardActionArea href="/projecten/projectpogo">
-                            <Card.Img src="/images/St_Oedenrode_Thumbnail.png" alt="Card image" />
+                        <CardActionArea href="/vueapp">
+                            <Card.Img src="/images/Vue_App_Thumbnail_1.png" alt="Card image" />
                         </CardActionArea>
                     </Card>
                 </Cell>
                 <Cell col={6} className="zoom"> 
                     <Card className="bg-dark text-white">
-                        <CardActionArea href="/projecten/rooisklumpke">
+                        <CardActionArea href="/rooisklumpke">
                             <Card.Img src="/images/St_Oedenrode_Thumbnail.png" alt="Card image" />
                         </CardActionArea>
                     </Card>

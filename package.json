@@ -5,6 +5,8 @@
   "dependencies": {
     "avataaars": "^1.2.1",
     "bootstrap": "^4.3.1",
+    "downloadbutton": "^1.0.0",
+    "js-file-download": "^0.4.5",
     "mdbreact": "^4.13.0",
     "react": "^16.8.6",
     "react-bootstrap": "^1.0.0-beta.8",

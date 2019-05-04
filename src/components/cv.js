@@ -3,11 +3,15 @@ import { Grid, Cell } from 'react-mdl';
 import Opleiding from './opleiding';
 import Ervaring from './ervaring';
 import Skills from './skills';
-
+import { Button } from '@material-ui/core';
 
 class Cv extends Component {
+    
+
     render() {
         return(
+
+            
             <div>
                 <Grid>     
                     <Cell col={4}>
@@ -68,7 +72,15 @@ class Cv extends Component {
                                     </a>
                                 </div>
                             </div>
+                            <div style={{paddingTop: '1em'}}>
+                                <Button>
+                                <a href="/images/Avatar_Martijn_1.png" style={{color: '#910503'}} download>
+                                    <p>Download Cv</p>
+                                </a>
+                                </Button>
+                            </div>
                         </div>
+                        
                     </Cell>
                     
                     <Cell className="cv-right-col" col={8}>
