@@ -24,8 +24,8 @@ class Vueapp extends Component {
                 <Cell col={4} className="project-body">
                     <h3>Wat is het voor project?</h3>
                     <p>
-                        Dit was een school opdracht waar ik een eigen API moest bouwen, deze moest koppelen aan mijn eigen server en 
-                        vervolgens de informatie vanuit de server moest laten zien in een Vue app. Ik had van alle drie de onderdelen nog
+                        Dit was een school opdracht voor Full Stack Web Development. Ik heb eerst een API moeten bouwen en vervolgens deze moest koppelen aan mijn eigen server. Daarna 
+                        moest de informatie vanuit de server te zien zijn in een Vue front-end. Ik had van alle drie de onderdelen nog
                         maar weinig of geen kennis. Het bouwen van de API en het vullen van de database op de serever was voor mij het moeilijkste 
                         , want dit was vooral back-end. Ook mochten we geen MySQL gebruiken, maar moesten we MongoDB gaan gebruiken. Na het testen 
                         van de back-end heb ik de fron-end gebouwd in Vue. Het doel was een simpel overzicht te geven van alle info uit de database op de
