@@ -97,6 +97,11 @@ background: linear-gradient(to left, #910503, #D70F08); /* W3C, IE 10+/ Edge, Fi
   -webkit-transform: scale(.9); /* Safari 3-8 */
   transform: scale(.9); 
 }
+.project-button {
+  position: absolute;
+  top: 85%;
+  
+}
 
 .projects-titel {
   text-align: center;
