@@ -8,6 +8,7 @@ class Projectenoverzicht extends Component {
     
       render() {
         return (
+            
             <Grid className="projects-grid">  
                 <Cell col={12}>
                     <div className="projects-titel">
@@ -16,14 +17,14 @@ class Projectenoverzicht extends Component {
                 </Cell>
                 <Cell col={6} className="zoom">
                     <Card className="bg-dark text-white">
-                    <CardActionArea href="./reactportfolio">
+                    <CardActionArea href="/reactportfolio">
                         <Card.Img src="/images/Portfolio_React_Thumbnail.png" alt="Card image" />
                         </CardActionArea>
                     </Card>
                 </Cell>
                 <Cell col={6} className="zoom">
                     <Card className="bg-dark text-white">
-                        <CardActionArea href="./dinorun">
+                        <CardActionArea href="/dinorun">
                             <Card.Img src="/images/Dinorun_Thumbnail.png" alt="Card image" />
                         </CardActionArea>
                     </Card>
