@@ -46,7 +46,7 @@ class Ricardolips extends Component {
                     </p>
                     <Button variant="secondary" 
                         href="https://www.ricardolips.nl" target="_blank"
-                    >Bekijk site</Button>
+                    >Bekijk de website</Button>
                 </Cell>
 
                 <Cell col={4}>

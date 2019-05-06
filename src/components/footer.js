@@ -5,9 +5,9 @@ import { Link } from 'react-router-dom';
 class Mainfooter extends Component {
     render() {
         return (
-            <Footer size="mini">
+            <Footer size="mini" className="main-footer">
                 <FooterSection type="left" logo="Martijn Bankert &copy;">
-                    <FooterLinkList>
+                    <FooterLinkList style={{color: 'white'}}>
                         <Link to="/cv">Cv</Link>
                         <Link to="/projectenoverzicht">Projecten</Link>
                         <Link to="/contact">Contact</Link>

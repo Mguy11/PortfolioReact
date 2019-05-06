@@ -15,7 +15,7 @@ class Vueapp extends Component {
                 <Cell col={4} offset={2}>
                     <Image
                         src="/images/Vue_App_Thumbnail_Clean.png"
-                        alt="Ricardo_Lips_Full_Website"
+                        alt="Vue_App_Thumbnail_Clean"
                         style={{boxShadow: '10px 10px 5px grey', border: '1px solid black' }}
                         fluid
                     />
@@ -32,7 +32,7 @@ class Vueapp extends Component {
                         server en daar volledige CRUD functionaliteit aan toe te voegen.
                     </p>
                 </Cell>
-          
+                    
            
                 <Cell col={4} offset={2} className="project-body">
                     <h3>Wat heb ik hiervoor gebruikt?</h3>
@@ -50,7 +50,7 @@ class Vueapp extends Component {
                 <Cell col={4}>
                     <Image
                         src="/images/API_Thumbnail.png"
-                        alt="Ricardo_Lips_Full_Website"
+                        alt="API_Thumbnail"
                         style={{boxShadow: '10px 10px 5px grey', border: '1px solid black'}}
                         fluid
                     />

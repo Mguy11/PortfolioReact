@@ -37,7 +37,7 @@ class Skills extends Component {
                         <ListItem>Technisch SEO</ListItem>
                         <ListItem>Photoshop</ListItem>
                         <ListItem>Illustrator</ListItem>
-                        <ListItem>XD</ListItem>
+                        <ListItem>MySQL</ListItem>
                     </List>
                 </Cell>
             </Grid>
