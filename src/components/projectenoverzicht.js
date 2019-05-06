@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 import { Card } from 'react-bootstrap';
-
+import { Link } from 'react-router-dom'
 import CardActionArea from '@material-ui/core/CardActionArea';
 
 
@@ -18,7 +18,8 @@ class Projectenoverzicht extends Component {
                 </Cell>
                 <Cell col={6} className="zoom">
                     <Card className="bg-dark text-white">
-                    <CardActionArea href="/reactportfolio">
+                    <CardActionArea>
+                        <Link to="/reactportfolio">Home</Link>
                         <Card.Img src="/images/Portfolio_React_Thumbnail.png" alt="Card image" />
                         </CardActionArea>
                     </Card>
