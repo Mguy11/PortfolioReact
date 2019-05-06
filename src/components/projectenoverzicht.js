@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 import { Card } from 'react-bootstrap';
+
 import CardActionArea from '@material-ui/core/CardActionArea';
 
 
@@ -31,35 +32,35 @@ class Projectenoverzicht extends Component {
                 </Cell>   
                 <Cell col={6} className="zoom">
                     <Card className="bg-dark text-white">
-                        <CardActionArea href="./karinsfashion">
+                        <CardActionArea href="/karinsfashion">
                             <Card.Img src="/images/Karins_Fashion_Thumbnail.png" alt="Card image" />
                         </CardActionArea>
                     </Card>
                 </Cell>
                 <Cell col={6} className="zoom">
                     <Card className="bg-dark text-white">
-                        <CardActionArea href="./ricadolips">
+                        <CardActionArea href="/ricadolips">
                             <Card.Img src="/images/Ricardo_Lips_Thumbnail.png" alt="Card image"/>
                         </CardActionArea>
                     </Card>
                 </Cell>
                 <Cell col={6} className="zoom">
                     <Card className="bg-dark text-white">
-                        <CardActionArea href="./motument">
+                        <CardActionArea href="/motument">
                             <Card.Img src="/images/Motument_Voor_Jou_Thumbnail.png" alt="Card image" />
                         </CardActionArea>       
                     </Card>
                 </Cell>    
                 <Cell col={6} className="zoom">
                     <Card className="bg-dark text-white">
-                        <CardActionArea href="./vueapp">
+                        <CardActionArea href="/vueapp">
                             <Card.Img src="/images/Vue_App_Thumbnail_1.png" alt="Card image" />
                         </CardActionArea>
                     </Card>
                 </Cell>
                 <Cell col={6} className="zoom"> 
                     <Card className="bg-dark text-white">
-                        <CardActionArea href="./rooisklumpke">
+                        <CardActionArea href="/rooisklumpke">
                             <Card.Img src="/images/St_Oedenrode_Thumbnail.png" alt="Card image" />
                         </CardActionArea>
                     </Card>

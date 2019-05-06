@@ -4,7 +4,6 @@ import { Switch, Route } from 'react-router-dom';
 import LandingPage from './landingpage';
 import Contact from './contact';
 import Cv from './cv';
-
 import Projectenoverzicht from './projectenoverzicht';
 import Reactportfolio from './reactportfolio';
 import Dinorun from './dinorun';
