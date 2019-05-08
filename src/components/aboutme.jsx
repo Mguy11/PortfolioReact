@@ -16,8 +16,6 @@ class AboutMe extends Component {
                         <p style={{width: '75%', margin: 'auto', paddingTop: '1em'}}>Hi, Ik ben Martijn, een student Creative Media and Game Technologies en Junior Webdeveloper bij IDN.
                                     Mijn droom is front-end developer worden en straks van mijn hobby mijn werk te maken.
                                     Ik wil me nu vooral gaan richten op front-end technieken zoals <b>Angular</b>, <b>React</b>, <b>Vue</b> en mijn <b>CSS</b>, omdat ik mijn skills op deze gebieden wil verbeteren en uitbreiden. 
-
-
                             </p>
                     </Cell>
                     <Cell col={6}>

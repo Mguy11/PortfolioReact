@@ -9,7 +9,7 @@ class Reactportfolio extends Component {
             <Grid>
                 
                 <Cell col={12} className="project-title">
-                    <h1>Dinorun</h1>
+                    <h1>React Portfolio</h1>
                 </Cell>
                 
                 <Cell col={4} offset={2}>
@@ -34,18 +34,11 @@ class Reactportfolio extends Component {
           
            
                 <Cell col={4} offset={2} className="project-body">
-                <h4>Hoe werkt de Game?</h4>
+                <h4>Waarom in React?</h4>
                     <p>
-                        Je speelt als Dino in de grote grot waar alle nieuwe eieren liggen om uit te komen. Er onstaat vervolgens een 
-                        aardbeving en alles begint te trillen. De eieren biggen ook te trillen en vallen naar beneden. Jij als Dino wil alle 
-                        eieren gaan redden, zodat ze niet kapot vallen. Je rent heen en weer door de grot en vangt ze op, maar je meot wel uitkijken
-                        voor de vallende stenen want die doen pijn.
-                        <br/>
-                        <br/>
-                        <b>Solo:</b> Je speelt als Dino in een endless game waar het doel is zoveel mogelijk eieren te vangen zonder dood te gaan.
-                        <br/>
-                        <b>Versus:</b> Je speelt hier local multiplayer tegen iemand anders. De opdracht is proberen meer eieren te vangen dan de ander.
-                         Je moet wel nog steeds uitkijken voor de meteorieten, want als jij Game Over gaat wint de ander.
+                        Aangezien steeds meer bedrijven werken met React, Vue en Angular wilde ik ook leren hoe ik hiermee aan de slag kon gaan. React was mijn eerste voorkeur, omdat 
+                        ze bij de bedrijven waar ik graag stage wil lopen vooral React gebruiken. React is naar mijn mening ook het fijnst in omgang en kan je in korte tijd al een hoop 
+                        te weten komen.
                     </p>
                 </Cell>
 
@@ -70,18 +63,14 @@ class Reactportfolio extends Component {
                 <Cell col={4} className="project-body">
                     <h4>Wat heb ik hiervoor gebruikt?</h4>
                     <p>
-                        Ik heb voor de game zelf vooral <b>Typescript</b> en <b>CSS</b> gebruikt en om hem op de webpagina te krijgen was er ook nog een 
-                        beetje <b>HTML</b> nodig. Om mijn klassendiagram te tekenen heb ik creately gebruikt, omdat ik dit een fijne tool vond om
-                        het diagram te tekenen. 
+                        Ik heb voor de website <b>Javascript</b>, <b>Libraries</b>, <b>HTML</b>en <b>CSS</b> gebruikt en de hosting regel ik vie Netlify.
                     </p>
                     <div className="social-links">
                         <Button variant="secondary" 
-                            href="https://github.com/Mguy11/DinoRun" target="_blank"
+                            href="https://github.com/Mguy11/PortfolioReact" 
+                            target="_blank"
+                            
                         >Github</Button>
-
-                        <Button variant="secondary" 
-                            href="https://dinorun.bear-media.nl" target="_blank"
-                        >Speel de Game</Button>
                     </div>
                 </Cell>
 
