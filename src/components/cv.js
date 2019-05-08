@@ -74,7 +74,7 @@ class Cv extends Component {
                             </div>
                             <div style={{paddingTop: '1em'}}>
                                 <Button>
-                                <a href="/documents/CV-Martijn-Bankert-V2.pdf" style={{color: '#910503'}} download>
+                                <a href="/documents/CV-Martijn-Bankert.pdf" style={{color: '#910503'}} download>
                                     <p>Download Cv</p>
                                 </a>
                                 </Button>
