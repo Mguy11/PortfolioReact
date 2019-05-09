@@ -25,7 +25,7 @@ class Ricardolips extends Component {
                     <h3>Wat is het voor project?</h3>
                     <p>
                         De website is gebouwd voor een klant die net begonnen is als volks zanger.
-                        Hij vroeg mij of ik een mooie website kon bouwen die makkelijk in gebruik was voor andere
+                        Hij vroeg mij of ik een mooie website kon bouwen die makkelijk in gebruik was voor anderen
                         die hem ook moeten gaan gebruiken. Hij moest overzichtelijk zijn en er moesten berichten op geplaatst kunnen worden.
                         Na enig overleg hebben we besloten dat ik een WordPress website in elkaar zou zetten voor hem. Mijn CSS kennis was
                         nog niet goed genoeg op dat moment om zelf een template te maken, dus daarvoor heb ik een template online gekozen.

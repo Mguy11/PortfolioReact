@@ -26,9 +26,9 @@ class Dinorun extends Component {
                     <p>
                         Dit was een school project waar we een game moesten bouwen in Typescript. Voor mij was dit ook mijn eerste
                         keer dat ik een game ging bouwen in een web omgeving. Voor we konden beginnen met het bouwen van de game werd er 
-                        van ons verwacht dat we eerst alles zouden uitschrijven in pseudo code, zodat we een goed idee hadden hoe de game zou moesten 
+                        van ons verwacht dat we eerst alles zouden uitschrijven in pseudo code, zodat we een goed idee hadden hoe de game zou moeten 
                         worden. Dit maakte vervolgens het bouwproces iets makkelijker, omdat je concrete doelen kon stellen voor het bouwen.
-                        Ik ben vervolgens eerst gaan brainstormen wat voor game ik wilde maken. Ik heb uiteindelijk gekozen en een game te maken waarin je tegelijkertijd items moet oppakken
+                        Ik ben vervolgens eerst gaan brainstormen wat voor game ik wilde maken. Ik heb uiteindelijk gekozen om een game te maken waarin je tegelijkertijd items moet oppakken
                         en dodgen. Daarna ben ik gaan denken in wat voor setting ik deze game kon gebruiken met dit idee er achter. Daar is uiteindelijk 
                         Dinorun uitgekomen met in de hoofdrol Dino.
                     </p>
@@ -39,8 +39,8 @@ class Dinorun extends Component {
                 <h4>Hoe werkt de Game?</h4>
                     <p>
                         Je speelt als Dino in de grote grot waar alle nieuwe eieren liggen om uit te komen. Er onstaat vervolgens een 
-                        aardbeving en alles begint te trillen. De eieren biggen ook te trillen en vallen naar beneden. Jij als Dino wil alle 
-                        eieren gaan redden, zodat ze niet kapot vallen. Je rent heen en weer door de grot en vangt ze op, maar je meot wel uitkijken
+                        aardbeving en alles begint te trillen. De eieren beginnen ook te trillen en vallen naar beneden. Jij als Dino wilt alle 
+                        eieren gaan redden, zodat ze niet kapot vallen. Je rent heen en weer door de grot en vangt ze op, maar je moet wel uitkijken
                         voor de vallende stenen want die doen pijn.
                         <br/>
                         <br/>

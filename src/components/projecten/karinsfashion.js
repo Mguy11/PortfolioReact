@@ -27,8 +27,8 @@ class Karinsfashion extends Component {
                         Dit was mijn eerste opdracht die ik heb gehad om een website te bouwen voor een klant. De vraag kwam via
                         een vriend of ik voor zijn moeders kleding winkel een website kon bouwen. Ook moest de winkel op Google aangemeld worden etc. dus 
                         dat heb ik ook gelijk meegenomen. Het moeilijke van deze opdracht was dat ik geen richtlijnen had, want er waren geen eisen. De 
-                        website was alleen een extra onderdeel voor de winkel en dat hoefde voor zijn moeder eigenlijk niet. Ik ben toen eerst
-                        begonnen om eerts met <b>WordPress</b> een website te maken, maar dat was toch niet wat ze zochten. Vervolgens heb ik met een template een 
+                        website was alleen een extra onderdeel voor de winkel. Ik ben toen eerst
+                        begonnen om met <b>WordPress</b> een website te maken, maar dat was toch niet wat ze zochten. Vervolgens heb ik met een template een 
                         losse website gebouwd.
                     </p>
                 </Cell>

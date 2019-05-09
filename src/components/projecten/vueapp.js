@@ -24,7 +24,7 @@ class Vueapp extends Component {
                 <Cell col={4} className="project-body">
                     <h3>Wat is het voor project?</h3>
                     <p>
-                        Dit was een school opdracht voor Full Stack Web Development. Ik heb eerst een API moeten bouwen en vervolgens deze moest koppelen aan mijn eigen server. Daarna 
+                        Dit was een school opdracht voor Full Stack Web Development. Ik heb eerst een API moeten bouwen en vervolgens deze moeten koppelen aan mijn eigen server. Daarna 
                         moest de informatie vanuit de server te zien zijn in een Vue front-end. Ik had van alle drie de onderdelen nog
                         maar weinig of geen kennis. Het bouwen van de API en het vullen van de database op de serever was voor mij het moeilijkste 
                         , want dit was vooral back-end. Ook mochten we geen MySQL gebruiken, maar moesten we MongoDB gaan gebruiken. Na het testen 
@@ -37,7 +37,7 @@ class Vueapp extends Component {
                 <Cell col={4} offset={2} className="project-body">
                     <h3>Wat heb ik hiervoor gebruikt?</h3>
                     <p>
-                        De back-end bestaat uit een API die <b>JSON</b> door stuurd vanaf mijn server. De server database is gebouwd met <b>MongoDB</b>.
+                        De back-end bestaat uit een API die <b>JSON</b> doorstuurd vanaf mijn server. De server database is gebouwd met <b>MongoDB</b>.
                         Daarnaast heb ik mijn front-end gemaakt in <b>Vue</b> met hier en daar wat <b>HTML</b> en <b>CSS</b>. De styling is uit <b>Bootstrap</b>.
                     </p>
                     <div>

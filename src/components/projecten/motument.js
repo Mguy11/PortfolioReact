@@ -24,9 +24,9 @@ class Motument extends Component {
                 <Cell col={4} className="project-body">
                     <h3>Wat is het voor project?</h3>
                     <p>
-                        De website is gemaakt voor een bedrijfje waar mensen proberen andere te helpen met hun porblemen. Ze wilde dit
+                        De website is gemaakt voor een bedrijfje waar mensen proberen anderen te helpen met hun problemen. Ze wilden dit
                         op een wat modernere manier aanpakken door er een blog van te maken met bijbehorende social media accounts. Mensen konden zo
-                        hun problemen zowel normaal als anoniem posten en dan wordt er door één van de medewerkers op gereageerd. Verder moest het ook een 
+                        hun problemen zowel normaal als anoniem posten en dan word er door één van de medewerkers op gereageerd. Verder moest het ook een 
                         platform worden waar mensen ook elkaar konden helpen en steunen waar nodig. Helaas is het niet helemaal goed van de grond gekomen en is
                         de website voor nu nog even buiten gebruik.
                     </p>

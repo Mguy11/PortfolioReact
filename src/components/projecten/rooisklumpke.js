@@ -25,11 +25,11 @@ class Rooisklumpke extends Component {
                     <h3>Wat is het voor project?</h3>
                     <p>
                         Dit was een project in uit mijn eerste jaar CMGT, waar we moesten leren werken met PHP. De bedoeling was
-                        dat we eerst zelf een klant gingen zoeken waar we een Reserveringssysteem voor konden bouwen. Wanneer je een 
-                        klant had moest hij eerst worden goed gekeurd en vervolgens kon je de interviews gaan afleggen om daaruit het project 
+                        dat we eerst zelf een klant gingen zoeken waar we een reserveringssysteem voor konden bouwen. Wanneer je een 
+                        klant had moest hij eerst worden goedgekeurd en vervolgens kon je de interviews gaan afleggen om daaruit het project 
                         te kunnen gaan maken. Ik heb gekozen om een systeem te gaan bouwen voor de camping waar ik normaal in de winter altijd kwam
-                        , omdat ze daar vernieuwing nodig hadden voor het systeem. Ze gebruikte daar nog ouderwetse reserveringspapiertjes en wilde 
-                        daar van af. Na een aantal iteraties van het project heb ik dit systeem kunnen opleveren voor de camping. De website zelf
+                        , omdat ze daar vernieuwing nodig hadden voor het reserveringssysteem. Ze gebruikten daar nog ouderwetse reserveringspapiertjes en wilden 
+                        daar van af. Na een enige tijd testen met verschillende versies heb ik dit systeem kunnen opleveren voor de camping. De website zelf
                         was onbelangrijk aangezien dit systeem geïmplementeerd zou worden op de bestaande website, maar het moest wel overkomen als website 
                         in plaats van een los systeem. Ik kreeg geen contact meer met de huidige webdeveloper om het systeem ook daadwerkelijk op de 
                         website te krijgen. 
