@@ -11,7 +11,7 @@ class App extends Component {
     return (
       <div className="main-navigation">
           <Layout>
-              <Header className="header-color" title={<Link style={{textDecoration: 'none', color: 'white', fontfamily: 'Varela Round sans-serif'}} to="/" sticky>Home</Link>} scroll>
+              <Header className="header-color" title={<Link style={{textDecoration: 'none', color: 'white'}} to="/" sticky>Home</Link>} scroll>
                   <Navigation>
                       <Link to="/cv">Cv</Link>
                       <Link to="/projectenoverzicht">Projecten</Link>

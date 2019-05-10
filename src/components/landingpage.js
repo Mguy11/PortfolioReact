@@ -1,32 +1,17 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
-import WelcomeText from './typistcomponent'
 
 class LandingPage extends Component {
     render() {
         return(
-            <div >
-            <Grid className="landing-grid-top">
-                
-                    <Cell offset={3} col={3}>
-                        <img
-                            src="/images/Avatar_Martijn_2.png"
-                            alt="avatar"
-                            className="avatar-img"
-                        />
-                    </Cell>
-
-                    <Cell col={5}>
-                    <div className="speech-bubble">
-                    <div className="arrow bottom right"></div>
-                        <WelcomeText >                  
-                        </WelcomeText>
-                    </div>
-                    </Cell>
-              
-            </Grid>
-            <Grid className="landing-grid-bottom">
+            <div style={{width: '100%', height: '100%', margin: 'auto'}}>
+            <Grid className="landing-grid">
                 <Cell col={12}>
+                <img
+                    src="/images/Avatar_Martijn_2.png"
+                    alt="avatar"
+                    className="avatar-img"
+                />
                 <div className="banner-text">
 
                     <h1>Martijn Bankert</h1>

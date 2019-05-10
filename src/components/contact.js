@@ -35,7 +35,7 @@ class Contact extends Component {
                                 <ListItem>
                                     <ListItemContent style={{fontSize: '25px', fontFamily: 'Roboto', fontWeight: 'bold'}}>
                                     <i className="fa fa-envelope"/>
-                                    m.bankert@rfbnet.nl
+                                    mbankert146@gmail.com
                                     </ListItemContent>
                                 </ListItem>
                                 <ListItem>
