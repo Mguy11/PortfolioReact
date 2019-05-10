@@ -5,29 +5,39 @@
 
 }
 
-.landing-grid {
+.landing-grid-top {
+  background: #D70F08;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #910503, #D70F08);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #910503, #D70F08); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  margin: auto;
+  width: 100%;
+  height: 100%;
+
+}
+
+.landing-grid-bottom {
   background: #D70F08;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #910503, #D70F08);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to left, #910503, #D70F08); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
   text-align: center;
-  position: fixed;
-  top: 0;
-  left: 0;
   width: 100%;
-  height: 100%;
+  height: 60%;
 
 }
+
 .main-footer {
   background: #D70F08;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #910503, #D70F08);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to left, #910503, #D70F08); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: 'Varela Round', sans-serif;
 }
 
 /*Landing Page CSS */
 
 .avatar-img {
-  height: 40%;
+  height: 80%;
   padding-top: 5em;
 }
 
@@ -40,12 +50,14 @@
 }
 
 .banner-text h1 {
+  font-family: 'Varela Round', sans-serif;
   font-size: 66px;
   font-weight: bold;
   color: white;
 }
 
 .banner-text h3 {
+  font-family: 'Varela Round', sans-serif;
   font-size: 44px;
   font-style: italic;
   color: white;
@@ -58,6 +70,7 @@
 }
 
 .banner-text p {
+  font-family: 'Varela Round', sans-serif;
   color: white;
   font-size: 20px;
   padding: 2em;
@@ -81,9 +94,53 @@
 }
 
 .landing-title {
-  font-family: 'Anton', sans-serif;
+  font-family: 'Varela Round', sans-serif;
   margin-top: 5em;
 }
+
+.typist-text {
+
+  font-family: 'Varela Round', sans-serif;
+  font-size: 4em;
+  color: black;
+  height: 100%;
+  width: 90%;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.speech-bubble {
+  background-color: #f8f8f8;
+  border: 1px solid #c8c8c8;
+  border-radius: 15px;
+  width: 30%;
+  height: 20%;
+  text-align: center;
+  padding: 20px;
+  position: absolute;
+}
+
+.speech-bubble .arrow {
+  border-style: solid;
+  position: absolute;
+}
+
+.bottom {
+  border-color: #c8c8c8 transparent transparent transparent;
+  border-width: 14px 14px 0px 14px;
+  bottom: -14px;
+}
+
+.bottom:after {
+  border-color: #f8f8f8 transparent transparent transparent;
+  border-style: solid;
+  border-width: 14px 14px 0px 14px;
+  bottom: 1px;
+  content: "";
+  position: absolute;
+  left: -13px;
+}
+
 
 /*Projects Page CSS */
 
@@ -107,12 +164,11 @@
   top: 85%;
   
 }
-
 .projects-titel {
   text-align: center;
 }
 .projects-titel h1 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Varela Round', sans-serif;
 }
 
 /*About me Page CSS*/
@@ -126,6 +182,7 @@
 }
 
 .contact-grid {
+  font-family: 'Varela Round', sans-serif;
   text-align: center;
   justify-content: center;
   width: 80%;
@@ -136,12 +193,12 @@
 }
 
 .contact-grid h2 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Varela Round', sans-serif;
   font-weight: 'bold';
 }
 
 .contact-grid p {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Varela Round', sans-serif;
   font-size: 16px;
   
 }
@@ -167,6 +224,7 @@
 /*Cv Page CSS */
 
 .cv-right-col {
+  font-family: 'Varela Round', sans-serif;
   background: #434343;
   color: white;
   padding: 2em;
@@ -176,6 +234,7 @@
 }
 
 .cv-right-col h4 {
+  font-family: 'Varela Round', sans-serif;
   margin-top: '0px';
 }
 
@@ -194,7 +253,7 @@
 }
 
 .cv-left-col p {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Varela Round', sans-serif;
   margin: auto;
   width: '50%';
   justify-content: center;
