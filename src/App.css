@@ -5,12 +5,15 @@
 
 }
 
-.landing-grid-top {
+.landing-grid {
   background: #D70F08;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #910503, #D70F08);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to left, #910503, #D70F08); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-  margin: auto;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
 
@@ -37,7 +40,7 @@
 /*Landing Page CSS */
 
 .avatar-img {
-  height: 80%;
+  height: 40%;
   padding-top: 5em;
 }
 
