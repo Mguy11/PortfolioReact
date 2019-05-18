@@ -45,7 +45,7 @@ class Ricardolips extends Component {
                         extra plugin.
                     </p>
                     <Button variant="secondary" 
-                        href="https://www.ricardolips.nl" target="_blank"
+                        href="https://www.ricardolips.nl" target="_blank" 
                     >Bekijk de website</Button>
                 </Cell>
 

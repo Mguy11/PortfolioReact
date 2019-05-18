@@ -45,10 +45,10 @@ class Rooisklumpke extends Component {
                     </p>
                     <div>
                     <Button variant="secondary" 
-                        href="https://github.com/Mguy11/PHP-Opdrachten" target="_blank"
+                        href="https://github.com/Mguy11/PHP-Opdrachten" target="_blank" className="checkout-button"
                     >Github</Button>
                     <Button variant="secondary" 
-                        href="https://stoedenrode.bear-media.nl/" target="_blank"
+                        href="https://stoedenrode.bear-media.nl/" target="_blank" className="checkout-button"
                     >Live Demo</Button>
                     </div>
                 </Cell>

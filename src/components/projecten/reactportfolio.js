@@ -63,9 +63,9 @@ class Reactportfolio extends Component {
                 <Cell col={4} className="project-body">
                     <h4>Wat heb ik hiervoor gebruikt?</h4>
                     <p>
-                        Ik heb voor de website <b>Javascript</b>, <b>Libraries</b>, <b>HTML</b>en <b>CSS</b> gebruikt en de hosting regel ik vie Netlify.
+                        Ik heb voor de website <b>Javascript</b>, <b>Libraries</b>, <b>HTML</b>en <b>CSS</b> gebruikt en de hosting regel ik via Netlify.
                     </p>
-                    <div className="social-links">
+                    <div className="checkout-buttons">
                         <Button variant="secondary" 
                             href="https://github.com/Mguy11/PortfolioReact" 
                             target="_blank"

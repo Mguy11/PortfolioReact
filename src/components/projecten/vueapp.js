@@ -42,10 +42,10 @@ class Vueapp extends Component {
                     </p>
                     <div>
                     <Button variant="secondary" 
-                        href="https://github.com/Mguy11/Programmeren6" target="_blank"
+                        href="https://github.com/Mguy11/Programmeren6" target="_blank" className="checkout-button"
                     >Github</Button>
                     <Button variant="secondary" 
-                        href="https://www.youtube.com/watch?v=B425MGev2P4" target="_blank"
+                        href="https://www.youtube.com/watch?v=B425MGev2P4" target="_blank" className="checkout-button"
                     >Youtube Demo</Button>
                     </div>
                     

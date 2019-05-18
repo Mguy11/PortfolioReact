@@ -22,6 +22,7 @@ class LandingPage extends Component {
                     <hr/>
 
                     <p>C# | HTML/CSS | JavaScript | PHP | React | Technisch SEO | TypeScript | Vue | WordPress </p>
+                    
                     <div className="social-links">
 
                         {/* Github */}

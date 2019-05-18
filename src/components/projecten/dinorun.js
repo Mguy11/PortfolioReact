@@ -76,13 +76,13 @@ class Dinorun extends Component {
                         beetje <b>HTML</b> nodig. Om mijn klassendiagram te tekenen heb ik creately gebruikt, omdat ik dit een fijne tool vond om
                         het diagram te tekenen. 
                     </p>
-                    <div className="social-links">
+                    <div >
                         <Button variant="secondary" 
-                            href="https://github.com/Mguy11/DinoRun" target="_blank"
+                            href="https://github.com/Mguy11/DinoRun" target="_blank" className="checkout-button"
                         >Github</Button>
 
                         <Button variant="secondary" 
-                            href="https://dinorun.bear-media.nl" target="_blank"
+                            href="https://dinorun.bear-media.nl" target="_blank" className="checkout-button"
                         >Speel de Game</Button>
                     </div>
                 </Cell>

@@ -37,6 +37,14 @@
   font-family: 'Varela Round', sans-serif;
 }
 
+p {
+  font-family: 'Varela Round', sans-serif;
+}
+
+.checkout-button {
+  margin: 1em;
+}
+
 /*Landing Page CSS */
 
 .avatar-img {
@@ -324,11 +332,19 @@
 }
 
 .project-body {
+  font-family: 'Varela Round', sans-serif;
   text-align: center;
   padding-top: 2em;
   padding-bottom: 2em;
 }
 
 .project-body p {
+  font-family: 'Varela Round', sans-serif;
   padding: 1em;
 }
+
+.project-body h4 {
+  font-family: 'Varela Round', sans-serif;
+
+}
+

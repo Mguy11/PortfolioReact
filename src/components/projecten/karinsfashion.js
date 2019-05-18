@@ -63,11 +63,11 @@ class Karinsfashion extends Component {
                     
                     <div className="social-links">
                         <Button variant="secondary" 
-                            href="https://github.com/Mguy11/Karin-s-Fashion" target="_blank"
+                            href="https://github.com/Mguy11/Karin-s-Fashion" target="_blank" className="checkout-button"
                         >Github</Button>
 
                         <Button variant="secondary" 
-                            href="https://dinorun.bear-media.nl" target="_blank"
+                            href="https://karins-fashion.nl" target="_blank" className="checkout-button"
                         >Bekijk de website</Button>
                     </div>
                 </Cell>
